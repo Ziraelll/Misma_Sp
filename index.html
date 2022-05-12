@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Main.css" />
-    <script src="https://kit.fontawesome.com/51858e06f0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/51858e06f0.js"
+      crossorigin="anonymous"
+    ></script>
     <title>MyLanding</title>
   </head>
   <body>
@@ -14,8 +17,8 @@
         <img src="src/logo.png" alt="Лого" />
         <nav class="main-menu">
           <ul class="">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services-link">Services</a></li>
             <li><a href="#">How it works</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Our blog</a></li>
@@ -25,11 +28,11 @@
       </div>
     </header>
     <main>
-      <section class="main-board ">
-        <div class="main-wrapper ">
-          <div class="main-board_left-block ">
+      <section class="main-board" id="home">
+        <div class="main-wrapper">
+          <div class="main-board_left-block">
             <h1>A Perfect Landing Page For Your App Showcasing</h1>
-            <div >
+            <div>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
               reiciendis quasi quos fugiat, asperiores, blanditiis facere fuga
               vitae recusandae, eveniet maiores nisi adipisci tenetur quod eos
@@ -52,7 +55,54 @@
               </a>
             </div>
           </div>
-          <img   src="src/mobile-mockup.png" alt="Смартфон" />
+          <img src="src/mobile-mockup.png" alt="Смартфон" />
+        </div>
+      </section>
+      <section class="services" id="services-link">
+    
+        <div class="main-wrapper">
+          <h2><span>Services</span></h2>
+          <div class="services_block-item">
+            <div class="services_item">
+              <div class="box-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h3>Made with Love</h3>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+                ducimus sequi numquam vel eveniet temporibus reprehenderit error
+                officia ipsum veniam molestiae non laudantium doloremque esse
+                distinctio a, ipsa repellendus nisi!
+              </p>
+              <a href="#">Read More</a>
+            </div>
+            <div class="services_item">
+              <div class="box-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <h3>Made with Love</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+                ducimus sequi numquam vel eveniet temporibus reprehenderit error
+                officia ipsum veniam molestiae non laudantium doloremque esse
+                distinctio a, ipsa repellendus nisi!
+              </p>
+              <a href="#">Read More</a>
+            </div>
+            <div class="services_item">
+              <div class="box-icon">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <h3>Made with Love</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+                ducimus sequi numquam vel eveniet temporibus reprehenderit error
+                officia ipsum veniam molestiae non laudantium doloremque esse
+                distinctio a, ipsa repellendus nisi!
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
